@@ -14,5 +14,18 @@ HEROKU DEPLOYMENT READY VERSION
 1) Create a new github repo
 2) Ensure you ran `bundle install` when setting up local dev, if not run it now
 3) Add, commit, push to master on Github
-4) Setup Heroku project
-5) 
+4) Setup Heroku project/app
+5) Add Heroku Remote address from the app creation (instructions on heroku)
+6) git push heroku master
+7) (required only if you setup a db migration already) - 
+
+DB Setup:
+from terminal in the project root run the following
+
+heroku addons:add heroku-postgresql:dev
+
+then
+
+heroku run rake db:migrate
+
+Your app should be live on ther heroku url now
