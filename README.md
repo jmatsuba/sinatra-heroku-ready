@@ -1,7 +1,5 @@
-Sinatra Skeleton
-=============
-HEROKU DEPLOYMENT READY VERSION
-=============
+# Sinatra Skeleton Boilerplate
+A ready for heroku plain ol Sinatra app. For a small, quick deployments.
 
 ## LOCAL DEV  -- Getting Started
 
@@ -17,7 +15,7 @@ HEROKU DEPLOYMENT READY VERSION
 4) Setup Heroku project/app
 5) Add Heroku Remote address from the app creation (instructions on heroku)
 6) git push heroku master
-7) (required only if you setup a db migration already) - 
+7) (required only if you setup a db migration already) -
 
 DB Setup:
 from terminal in the project root run the following
